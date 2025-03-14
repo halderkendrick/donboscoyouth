@@ -1,0 +1,63 @@
+/* Responsive Styles */
+
+/* Small Devices (Tablets, 768px and below) */
+@media screen and (max-width: 768px) {
+    /* Header */
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    /* Hero Section */
+    .hero {
+        padding: 60px 20px;
+    }
+
+    /* News & Events */
+    .news-events {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .news, .events {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+/* Extra Small Devices (Mobile Phones, 480px and below) */
+@media screen and (max-width: 480px) {
+    /* General */
+    body {
+        font-size: 14px;
+    }
+
+    /* Header */
+    .logo {
+        font-size: 20px;
+    }
+
+    /* Hero Section */
+    .hero {
+        padding: 40px 10px;
+    }
+
+    .hero h1 {
+        font-size: 24px;
+    }
+
+    /* Footer */
+    footer {
+        padding: 10px;
+        font-size: 12px;
+    }
+}
