@@ -84,6 +84,16 @@ nav {
     padding: 190px 20px;
 }
 
+/* Socials */
+.social_media{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.socials img{
+    width: 60px;
+    margin: 0 10px;
+}
 /* Sponsor */
 .sponsor {
     display: flex;
