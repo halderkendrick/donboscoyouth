@@ -92,7 +92,13 @@ nav {
 }
 .sponsored_by1, .sponsored_by2 {
     width: 48%;
-    padding: 15px;
+}
+
+.sponsored_by1 img{
+    width: 30%;
+}
+.sponsored_by2 img{
+    width: 45%;
 }
 
 /* Footer */
