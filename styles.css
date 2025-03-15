@@ -89,10 +89,11 @@ nav {
     display: flex;
     justify-content: center;
     padding: 20px;
+    background-color: gainsboro;
 }
 .socials img{
-    width: 60px;
-    margin: 0 10px;
+    width: 30px;
+    margin: 0 30px;
 }
 /* Sponsor */
 .sponsor {
