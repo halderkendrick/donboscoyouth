@@ -14,9 +14,8 @@ header {
     justify-content: space-between;
     align-items: center;
 }
-header .logo {
-    font-size: 24px;
-    font-weight: bold;
+header .logo img{
+    width: 50px;
 }
 nav ul {
     list-style: none;
@@ -85,15 +84,14 @@ nav {
     padding: 100px 20px;
 }
 
-/* News & Events */
-.news-events {
+/* Sponsor */
+.sponsor {
     display: flex;
     justify-content: space-between;
     padding: 20px;
 }
-.news, .events {
+.sponsored_by1, .sponsored_by2 {
     width: 48%;
-    background: #f8f8f8;
     padding: 15px;
 }
 
