@@ -6,6 +6,27 @@
     header {
         flex-direction: column;
         text-align: center;
+        padding: 10px;
+    }
+
+    .hamburger {
+        display: block;
+        position: absolute;
+        top: 10px;
+        right: 20px;
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+    nav {
+        display: none;
+        flex-direction: column;
+        background: green;
+        width: 100%;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        text-align: center;
     }
 
     nav ul {
@@ -17,9 +38,17 @@
         margin: 10px 0;
     }
 
+    nav.show {
+        display: flex;
+    }
+
     /* Hero Section */
     .hero {
-        padding: 60px 20px;
+        padding: 50px 15px;
+    }
+
+    .hero h1 {
+        font-size: 26px;
     }
 
     /* News & Events */
@@ -32,6 +61,16 @@
         width: 100%;
         margin-bottom: 20px;
     }
+
+    /* Sponsor Section */
+    .sponsor-container {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .sponsor-item img {
+        width: 120px;
+    }
 }
 
 /* Extra Small Devices (Mobile Phones, 480px and below) */
@@ -42,8 +81,8 @@
     }
 
     /* Header */
-    .logo {
-        font-size: 20px;
+    .logo img {
+        width: 40px;
     }
 
     /* Hero Section */
@@ -52,7 +91,12 @@
     }
 
     .hero h1 {
-        font-size: 24px;
+        font-size: 22px;
+    }
+
+    /* Social Media Section */
+    .social-icons img {
+        width: 30px;
     }
 
     /* Footer */
