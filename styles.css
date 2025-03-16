@@ -83,34 +83,60 @@ nav {
     text-align: center;
     padding: 190px 20px;
 }
+/* Social Media Section */
+.social_media {
+    text-align: center;
+    padding: 20px;
+    background: white;
+    color: black;
+}
 
-/* Socials */
-.social_media{
+.social-icons a {
+    margin: 0 15px;
+    display: inline-block;
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+    transform: scale(1.2);
+}
+
+.social-icons img {
+    width: 40px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Sponsor Section */
+.sponsor {
+    text-align: center;
+    padding: 30px;
+    background: #f4f4f4;
+}
+
+.sponsor-container {
     display: flex;
     justify-content: center;
-    padding: 20px;
-    background-color: gainsboro;
-}
-.socials img{
-    width: 30px;
-    margin: 0 10px;
-}
-/* Sponsor */
-.sponsor {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-}
-.sponsored_by1, .sponsored_by2 {
-    width: 48%;
+    gap: 30px;
 }
 
-.sponsored_by1 img{
-    width: 30%;
+.sponsor-item {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
 }
-.sponsored_by2 img{
-    width: 45%;
+
+.sponsor-item:hover {
+    transform: scale(1.1);
 }
+
+.sponsor-item img {
+    width: 150px;
+    height: auto;
+}
+
 
 /* Footer */
 footer {
