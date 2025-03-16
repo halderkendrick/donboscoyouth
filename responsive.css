@@ -32,6 +32,26 @@
         width: 100%;
         margin-bottom: 20px;
     }
+
+    /* Social Media */
+    .social_media {
+        padding: 15px;
+    }
+
+    .social-icons img {
+        width: 30px;
+    }
+
+    /* Sponsor Section */
+    .sponsor-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sponsor-item {
+        width: 80%;
+        margin-bottom: 15px;
+    }
 }
 
 /* Extra Small Devices (Mobile Phones, 480px and below) */
@@ -59,5 +79,28 @@
     footer {
         padding: 10px;
         font-size: 12px;
+    }
+
+    /* Social Media */
+    .social_media {
+        padding: 10px;
+    }
+
+    .social-icons a {
+        margin: 0 10px;
+    }
+
+    /* Sponsor Section */
+    .sponsor {
+        padding: 20px;
+    }
+
+    .sponsor-item {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .sponsor-item img {
+        width: 120px;
     }
 }
