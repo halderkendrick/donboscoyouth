@@ -12,7 +12,7 @@
     .hamburger {
         display: block;
         position: absolute;
-        right: 30px;
+        right: 40px;
         font-size: 30px;
         cursor: pointer;
     }
