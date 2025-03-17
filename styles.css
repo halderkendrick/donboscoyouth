@@ -168,3 +168,11 @@ footer {
     padding: 15px;
     margin-top: 20px;
 }
+
+/* Social Media Section */
+.about {
+    text-align: center;
+    padding: 20px;
+    background: white;
+    color: black;
+}
