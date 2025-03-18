@@ -50,6 +50,11 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
+    transition: .5s;
+}
+
+nav ul li a:hover{
+    color: yellowgreen;
 }
 
 /* Hide menu by default on mobile */
