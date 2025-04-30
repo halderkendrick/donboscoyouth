@@ -80,13 +80,40 @@
 
 <!-- Social Media Section -->
 <section class="social_media">
-    <h2>Connect with Us</h2>
+    <h2>Socials</h2>
     <div class="social-icons">
         <a href="https://www.facebook.com/profile.php?id=100034621823336" target="_blank">
             <img src="images/Facebook.png" alt="Facebook">
         </a>
     </div>
 </section>
+    <!-- Contact Section -->
+    <section class="s2">
+        <div class="main-container">
+            <a href=""></a>
+            <h3 style="text-align: center;">Get In Touch</h3>
+
+            <form id="contact-form" method="POST" action="/send_mail">
+                <a name="contact"></a>
+                <input type="hidden" name="csrfmiddlewaretoken" value="m9LVqzlNeAC0SvDhXCU3hxJ4YT9l4nuaotbXFm2CKPxW0RDFgsl4Ouc5wVSx6w7j">
+
+                <label>Name</label>
+                <input class="input-field" type="text" name="name">
+
+                <label>Subject</label>
+                <input class="input-field" type="text" name="subject">
+
+                <label>Email</label>
+                <input class="input-field" type="text" name="email">
+
+                <label>Message</label>
+                <textarea class="input-field" name="message"></textarea>
+
+                <input id="submit-btn" type="submit" value="Send">
+            </form>
+        </div>
+    </section>
+
     <!-- Footer -->
     <footer>
         <p>&copy; 2025 Don Bosco Youth Club. All Rights Reserved.</p>
