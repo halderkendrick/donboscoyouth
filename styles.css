@@ -235,8 +235,8 @@ footer {
 
 .about h2 {
     color: green;
-    margin-bottom: 30px;
     font-size: 28px;
+    margin-bottom: 30px;
 }
 
 .about-container {
@@ -260,15 +260,40 @@ footer {
     max-width: 800px;
 }
 
-.about-text h3 {
-    color: darkgreen;
-    margin-top: 20px;
-}
-
 .about-text p {
     line-height: 1.6;
     margin: 10px 0;
 }
+
+.about-text h3 {
+    margin-top: 30px;
+    color: darkgreen;
+    font-size: 22px;
+}
+.about-text a {
+    color: green;
+    text-decoration: underline;
+}
+.about-text a:hover {
+    color: darkgreen;
+}
+
+/* .about-container img {
+    max-height: 350px;
+    object-fit: cover;
+} */
+
+@media (min-width: 768px) {
+    .about-container {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .about-text {
+        padding-left: 30px;
+    }
+}
+
 
 /* Responsive */
 @media (min-width: 768px) {
