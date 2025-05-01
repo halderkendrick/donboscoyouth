@@ -22,9 +22,22 @@ document.addEventListener("DOMContentLoaded", function () {
         });
 });
 
+// function toggleMenu() {
+//     let nav = document.getElementById("nav-menu");
+//     nav.classList.toggle("show");
+// }
+
 function toggleMenu() {
-    let nav = document.getElementById("nav-menu");
-    nav.classList.toggle("show");
+  let nav = document.getElementById("nav-menu");
+  let hamburger = document.querySelector(".hamburger");
+  nav.classList.toggle("show");
+
+  // Toggle icon
+  if (hamburger.innerText === "☰") {
+      hamburger.innerText = "✖";
+  } else {
+      hamburger.innerText = "☰";
+  }
 }
 
 function openLightbox(imageSrc, captionText) {
