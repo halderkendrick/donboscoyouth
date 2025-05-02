@@ -89,7 +89,7 @@
     }
 }
 
-/* Extra Small Devices (Mobile Phones, 480px and below) */
+/* Extra Small Devices (Mobile Phones, 480px and below, including iPhones) */
 @media screen and (max-width: 480px) {
     /* General */
     body {
@@ -119,6 +119,32 @@
     footer {
         padding: 10px;
         font-size: 12px;
+    }
+
+    /* Contact Section */
+    .contact-wrapper {
+        padding: 15px;
+        gap: 20px;
+    }
+
+    .input-field,
+    #submit-btn {
+        font-size: 15px;
+    }
+
+    #contact-form label {
+        font-size: 14px;
+    }
+
+    .address-box h3,
+    .main-container h3 {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .address-box p {
+        font-size: 14px;
+        text-align: center;
     }
 }
 
