@@ -71,7 +71,7 @@
         width: 120px;
     }
 
-    /* Contact Section */
+    /* Contact Form */
     .contact-wrapper {
         flex-direction: column;
         padding: 20px;
@@ -87,53 +87,50 @@
     .main-container {
         margin-top: 0 !important;
     }
+
+    #contact-form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .input-field,
+    #submit-btn {
+        width: 100%;
+        margin-bottom: 15px;
+        padding: 10px;
+        font-size: 16px;
+        box-sizing: border-box;
+    }
+
+    #submit-btn {
+        background-color: green;
+        color: white;
+        border: none;
+        cursor: pointer;
+        align-self: center;
+    }
 }
 
 /* Extra Small Devices (Mobile Phones, 480px and below, including iPhones) */
 @media screen and (max-width: 480px) {
-    /* General */
-    body {
-        font-size: 14px;
-    }
-
-    /* Header */
-    .logo img {
-        width: 40px;
-    }
-
-    /* Hero Section */
-    .hero {
-        padding: 40px 10px;
-    }
-
-    .hero h1 {
-        font-size: 22px;
-    }
-
-    /* Social Media Section */
-    .social-icons img {
-        width: 30px;
-    }
-
-    /* Footer */
-    footer {
-        padding: 10px;
-        font-size: 12px;
-    }
-
-    /* Contact Section */
+    /* Contact Form */
     .contact-wrapper {
         padding: 15px;
         gap: 20px;
     }
 
-    .input-field,
-    #submit-btn {
-        font-size: 15px;
+    .main-container {
+        padding: 0 10px;
     }
 
     #contact-form label {
         font-size: 14px;
+    }
+
+    .input-field,
+    #submit-btn {
+        font-size: 15px;
+        padding: 12px;
     }
 
     .address-box h3,
