@@ -104,3 +104,40 @@
         font-size: 12px;
     }
 }
+
+/* Contact Section Responsive Styles */
+@media (max-width: 768px) {
+    .contact-wrapper {
+      display: flex;
+      flex-direction: column;
+      padding: 20px;
+      gap: 30px;
+    }
+  
+    .address-box,
+    .main-container {
+      width: 100%;
+      margin: 0;
+    }
+  
+    .main-container {
+      margin-top: 0 !important;
+    }
+  
+    #contact-form {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .input-field,
+    #submit-btn {
+      width: 100%;
+      margin-bottom: 15px;
+    }
+  
+    #submit-btn {
+      align-self: center;
+      padding: 10px 20px;
+    }
+  }
+  

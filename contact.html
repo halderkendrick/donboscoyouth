@@ -34,11 +34,11 @@
     
         <nav id="nav-menu">
             <ul>
-                <li><a href="https://donboscoyouth.vercel.app/" style="color: yellowgreen;">Home</a></li>
+                <li><a href="https://donboscoyouth.vercel.app/">Home</a></li>
                 <li><a href="https://donboscoyouth.vercel.app/about.html">About</a></li>
                 <li><a href="https://donboscoyouth.vercel.app/gallery.html">Gallery</a></li>
                 <li><a href="https://donboscoyouth.vercel.app/notice.html">Notice</a></li>
-                <li><a href="https://donboscoyouth.vercel.app/contact.html">Contact</a></li>
+                <li><a href="https://donboscoyouth.vercel.app/contact.html" style="color: yellowgreen;">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -47,45 +47,40 @@
     <!-- Hero Section -->
     <section class="hero">
         <div class="hero-content">
-            <p>"A Few Words and a Lot of Action"</p>
-            <h1>Don Bosco Youth Club</h1>
+            <br>
+            <br>
+            <h1>Contact</h1>
         </div>
     </section>
-<!-- Sponsor Section -->
-<section class="sponsor">
-    <div class="sponsor-container">
-        <div class="sponsor-item">
-            <a href="https://www.donboscoyouth.net/" target="_blank">
-                <img src="images/dby1.jpg" alt="Don Bosco Youth">
-            </a>
+    <!-- Contact Section -->
+    <section class="s2">
+        <div class="contact-wrapper">
+            <div class="address-box">
+                <h3>Our Address</h3>
+                <p>369 Shah Kabir Mazar Rd, Dhaka 1230</p>
+            
+                <h3 style="margin-top: 20px;">Phone</h3>
+                <p>01611490306</p>
+            </div>
+            
+            <div class="main-container" style="margin-top: -18%;">
+                <h3 style="text-align: center;">Contact with us</h3>
+                <form id="contact-form" method="POST" action="/send_mail">
+                    <input type="hidden" name="csrfmiddlewaretoken" value="...">
+                    <label>Name</label>
+                    <input class="input-field" type="text" name="name">
+                    <label>Subject</label>
+                    <input class="input-field" type="text" name="subject">
+                    <label>Email</label>
+                    <input class="input-field" type="text" name="email">
+                    <label>Message</label>
+                    <textarea class="input-field" name="message"></textarea>
+                    <input id="submit-btn" type="submit" value="Send">
+                </form>
+            </div>
         </div>
-        <div class="sponsor-item">
-            <a href="https://salesians.org/" target="_blank">
-                <img src="images/dby2.jpg" alt="Salesians">
-            </a>
-        </div>
-        <div class="sponsor-item">
-            <a href="http://donboscointernational.eu/" target="_blank">
-                <img src="images/dby3.png" alt="Salesians">
-            </a>
-        </div>
-        <div class="sponsor-item">
-            <a href="https://www.donboscosouthasia.org/" target="_blank">
-                <img src="images/dby4.png" alt="Salesians">
-            </a>
-        </div>
-    </div>
-</section>
-
-<!-- Social Media Section -->
-<section class="social_media">
-    <h2>Socials</h2>
-    <div class="social-icons">
-        <a href="https://www.facebook.com/profile.php?id=100034621823336" target="_blank">
-            <img src="images/Facebook.png" alt="Facebook">
-        </a>
-    </div>
-</section>
+    </section>
+    
     <!-- Footer -->
     <footer>
         <p>&copy; 2025 Don Bosco Youth Club. All Rights Reserved.</p>

@@ -118,7 +118,7 @@ nav {
 .social_media {
     text-align: center;
     padding: 20px;
-    background: #f4f4f4;
+    background: #ffff;
     color: black;
 }
 
@@ -188,16 +188,59 @@ footer {
 /* Contact Section */
 .s2 {
     background-color: #f4f4f4;
-    padding: 40px 20px;
+    padding: 20px 20px;
 }
+
+
 
 .s2 .main-container {
     max-width: 600px;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: 0;
     background: white;
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.address-box {
+    flex: 1;
+    min-width: 250px;
+    padding: 30px;
+    color: black;
+}
+
+.address-box h3 {
+    color: green;
+    margin-bottom: 10px;
+}
+
+.main-container {
+    flex: 1;
+    min-width: 300px;
+}
+
+
+.left-column {
+    flex: 1;
+    min-width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 
 .s2 h3 {
