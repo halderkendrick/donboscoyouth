@@ -70,6 +70,23 @@
     .sponsor-item img {
         width: 120px;
     }
+
+    /* Contact Section */
+    .contact-wrapper {
+        flex-direction: column;
+        padding: 20px;
+        gap: 30px;
+    }
+
+    .address-box,
+    .main-container {
+        width: 100%;
+        margin: 0;
+    }
+
+    .main-container {
+        margin-top: 0 !important;
+    }
 }
 
 /* Extra Small Devices (Mobile Phones, 480px and below) */
@@ -105,39 +122,41 @@
     }
 }
 
-/* Contact Section Responsive Styles */
-@media (max-width: 768px) {
-    .contact-wrapper {
-      display: flex;
-      flex-direction: column;
-      padding: 20px;
-      gap: 30px;
-    }
-  
-    .address-box,
-    .main-container {
-      width: 100%;
-      margin: 0;
-    }
-  
-    .main-container {
-      margin-top: 0 !important;
-    }
-  
-    #contact-form {
-      display: flex;
-      flex-direction: column;
-    }
-  
-    .input-field,
-    #submit-btn {
-      width: 100%;
-      margin-bottom: 15px;
-    }
-  
-    #submit-btn {
-      align-self: center;
-      padding: 10px 20px;
-    }
-  }
-  
+/* Contact Section General Styles */
+.contact-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 40px 5%;
+}
+
+.address-box,
+.main-container {
+    width: 48%;
+}
+
+.main-container {
+    margin-top: 0;
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-field,
+#submit-btn {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+#submit-btn {
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+    align-self: center;
+}
