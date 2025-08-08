@@ -1,10 +1,19 @@
-# Don Bosco Youth Association
+# Don Bosco Youth Association Website
 
-### CSS
-I'm using [tailwindcss](https://tailwindcss.com/) for styling. From the command line, use the [tailwind CLI](https://tailwindcss.com/docs/installation) to generate [`styles.css`](./styles.css)
+A sleek, mobile-friendly site built with HTML, Tailwind CSS & JavaScript, deployed on Vercel.
 
-```bash
-$ tailwindcss -o styles.css
-```
+This project showcases the spirit of the **Don Bosco Youth Association** in Moushair, Dhaka—highlighting their founding (2018), community programs, and their championship title in the Under‑16 School Basketball Tournament in 2025.
 
-If you liked my portfolio, hope you drop a star. Thanks for visiting! 🌟
+## Features
+- Animated, engaging **Home** page
+- Informative **About** page featuring Don Bosco’s life and the organization’s mission
+- Visual **Gallery** and timely **Notices**
+- Functional **Contact** form
+- Fully **responsive design** for any screen size
+
+## Tech Stack
+- HTML • Tailwind CSS • JavaScript
+- Vercel for seamless deployment
+
+## Learn More
+Visit the live site: [donboscoyouth.vercel.app](https://donboscoyouth.vercel.app/)
