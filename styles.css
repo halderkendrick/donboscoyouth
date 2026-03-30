@@ -577,4 +577,48 @@ footer {
     margin: 0 15px;
     color: #555;
 }
+.committee-section {
+    padding: 50px 20px;
+    text-align: center;
+}
 
+.committee-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 200px));
+    justify-content: center; /* keeps items centered */
+    gap: 20px;
+}
+
+.member-card {
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.member-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.member-card h3 {
+    margin: 10px 0 5px;
+}
+
+.member-card p {
+    color: gray;
+}
+.advisor-section {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.advisor-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.committee-grid {
+    justify-items: center;
+}
